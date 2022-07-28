@@ -1,0 +1,17 @@
+{
+    "name": "gioco-plus/agfish-contract",
+    "description": "agfish interface",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\AgFish\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "q",
+            "email": "q.wong@goldenf.co"
+        }
+    ],
+    "require": {}
+}
