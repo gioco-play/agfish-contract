@@ -11,9 +11,9 @@ interface AgFishServiceInterface
      * @param string $account
      * @param string $game_code
      * @param string $language
-     * @return mixed
+     * @param string|null $back_url
      */
-    function gameLaunch(string $op_code, string $account, string $game_code, string $language);
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $back_url = null);
 
     /**
      * 抓取遊戲紀錄
@@ -57,8 +57,6 @@ interface AgFishServiceInterface
      * @return mixed
      */
     function getBalance(string $op_code, string $account);
-
-
 
     /**
      * 交易失敗 訂單檢核
